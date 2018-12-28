@@ -26,6 +26,6 @@ return recipes
 function destructivelyDeleteFromObjectByKey(object, key){
 if (object.key) {
 delete object.key
-return object
 }
+return object
 }
