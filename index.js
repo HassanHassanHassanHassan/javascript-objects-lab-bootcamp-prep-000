@@ -22,3 +22,8 @@ return recipes
  }
  return object
 }
+
+function destructivelyDeleteFromObjectByKey(object, key){
+delete recipes.key
+return recipes
+}
