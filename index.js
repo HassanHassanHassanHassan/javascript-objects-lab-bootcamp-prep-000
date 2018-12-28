@@ -18,5 +18,5 @@ return recipes
  }
  function destructivelyDeleteFromObjectByKey(object, key)
  if object.key
- {}
+ {
 
