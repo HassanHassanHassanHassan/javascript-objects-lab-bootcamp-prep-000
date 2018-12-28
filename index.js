@@ -20,4 +20,5 @@ return recipes
  if (object.key)  {
    delete object.key
  }
+ return object
 }
