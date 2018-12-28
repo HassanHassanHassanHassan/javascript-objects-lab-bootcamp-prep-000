@@ -23,21 +23,3 @@ delete recipes.key
 return recipes
 }
 
-var obj = { foo: 'bar' }
- 
-var newObj = Object.assign({}, obj)
- 
-newObj // { foo: 'bar' }
- 
-delete newObj.foo // true
- 
-newObj // {}
- 
-obj // { foo: 'bar' }
-
- function destructivelyDeleteFromObjectByKey(object, key){
- if (object.key)  {
-   delete object.key
- }
- return object
-}
