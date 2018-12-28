@@ -23,6 +23,7 @@ return recipes
 // }
 
 function destructivelyDeleteFromObjectByKey(object, key){
+console.log(object, key)
 if (object.key) {
 delete object.key
 }
