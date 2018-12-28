@@ -11,13 +11,13 @@ return object
  var obj = { foo: 'bar' }
  
 var newObj = Object.assign({}, recipes)
-delete newObj.foo
+//delete newObj.foo
  function deleteFromObjectByKey(object, key){
 delete recipes.key 
 return recipes
  }
  
- var object = {prop: 
+
  function destructivelyDeleteFromObjectByKey(object, key){
    delete recipes.key
    return recipes
