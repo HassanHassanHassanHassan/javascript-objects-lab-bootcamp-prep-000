@@ -16,14 +16,18 @@ delete newObj.foo
 delete recipes.key 
 return recipes
  }
+
+
+function destructivelyDeleteFromObjectByKey(object, key){
+delete recipes.key
+return recipes
+}
+
+
+
  function destructivelyDeleteFromObjectByKey(object, key){
  if (object.key)  {
    delete object.key
  }
  return object
-}
-
-function destructivelyDeleteFromObjectByKey(object, key){
-delete recipes.key
-return recipes
 }
